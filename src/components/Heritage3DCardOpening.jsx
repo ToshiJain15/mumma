@@ -82,7 +82,7 @@ const Heritage3DCardOpening = ({ onCardOpened }) => {
               }}
             >
               <img 
-                src="/assets/DSC_5144.JPG" 
+                src="assets/DSC_5144.JPG" 
                 alt="Peek Inside"
                 style={{
                   width: '100%',
@@ -181,7 +181,7 @@ const Heritage3DCardOpening = ({ onCardOpened }) => {
               >
                 <div className="washi-tape washi-top-left" style={{ width: '70px' }} />
                 <img 
-                  src="/assets/mother_daughter_quilling.jpg" 
+                  src="assets/mother_daughter_quilling.jpg" 
                   alt="Mother Daughter Quilling"
                   style={{
                     width: '100%',

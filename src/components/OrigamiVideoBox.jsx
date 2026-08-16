@@ -186,7 +186,7 @@ const OrigamiVideoBox = () => {
               }}>
                 <video
                   ref={videoRef}
-                  src="/assets/WhatsApp Video 2026-08-14 at 16.51.20.mp4"
+                  src="assets/WhatsApp Video 2026-08-14 at 16.51.20.mp4"
                   playsInline
                   style={{
                     width: '100%',

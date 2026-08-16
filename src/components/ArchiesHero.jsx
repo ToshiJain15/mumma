@@ -146,7 +146,7 @@ const ArchiesHero = () => {
             }}>
               <div style={{ overflow: 'hidden', borderRadius: '8px' }}>
                 <img 
-                  src="/assets/DSC_5144.JPG" 
+                  src="assets/DSC_5144.JPG" 
                   alt="Maa" 
                   style={{
                     width: '100%',

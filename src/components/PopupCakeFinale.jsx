@@ -174,7 +174,7 @@ const PopupCakeFinale = () => {
           border: '2px solid #D6C2A8'
         }}>
           <img 
-            src="/assets/20230514_090841-COLLAGE.jpg" 
+            src="assets/20230514_090841-COLLAGE.jpg" 
             alt="Family Celebration"
             style={{
               width: '100%',

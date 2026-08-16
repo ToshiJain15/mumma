@@ -6,7 +6,7 @@ import { Camera, X, Heart, Sparkles, SlidersHorizontal, Eye } from 'lucide-react
 const memoriesData = [
   {
     id: 1,
-    src: '/assets/mother_daughter_braid.jpg',
+    src: 'assets/mother_daughter_braid.jpg',
     captionEn: 'Braiding Hair, Weaving Memories',
     captionHi: 'बचपन में बालों की चोटी और प्यार भरी बातें',
     secretEn: 'Remember how you used to braid my hair every morning with so much patience and sweet scoldings?',
@@ -16,7 +16,7 @@ const memoriesData = [
   },
   {
     id: 2,
-    src: '/assets/DSC_9568.JPG',
+    src: 'assets/DSC_9568.JPG',
     captionEn: 'Your Gentle & Radiant Glow',
     captionHi: 'आपकी प्यारी सी खिली हुई मुस्कान',
     secretEn: 'Your elegance and peace illuminate our entire world.',
@@ -26,7 +26,7 @@ const memoriesData = [
   },
   {
     id: 3,
-    src: '/assets/mother_daughter_chai.jpg',
+    src: 'assets/mother_daughter_chai.jpg',
     captionEn: 'Our Special Evening Chai Talks',
     captionHi: 'शाम की चाय और आपकी मीठी बातें',
     secretEn: 'My favorite part of the day is sitting with you, sharing a warm cup of chai and all my heart.',
@@ -36,7 +36,7 @@ const memoriesData = [
   },
   {
     id: 4,
-    src: '/assets/IMG-20260104-WA0123.jpg',
+    src: 'assets/IMG-20260104-WA0123.jpg',
     captionEn: 'Family Moments Full of Joy',
     captionHi: 'परिवार के साथ हँसते-खिलखिलाते पल',
     secretEn: 'Every smile in this photo is because of your love and warmth!',
@@ -46,7 +46,7 @@ const memoriesData = [
   },
   {
     id: 5,
-    src: '/assets/IMG-20260104-WA0133.jpg',
+    src: 'assets/IMG-20260104-WA0133.jpg',
     captionEn: 'Laughter, Fun & Boundless Love',
     captionHi: 'ढेर सारा प्यार और खुशियाँ',
     secretEn: 'These laughing moments with you are our biggest treasures.',
@@ -56,7 +56,7 @@ const memoriesData = [
   },
   {
     id: 6,
-    src: '/assets/20230514_090841-COLLAGE.jpg',
+    src: 'assets/20230514_090841-COLLAGE.jpg',
     captionEn: 'A Scrapbook of Lifelong Love',
     captionHi: 'यादों का एक प्यारा सा गुलदस्ता',
     secretEn: 'A lifetime of memories, and countless more yet to come!',

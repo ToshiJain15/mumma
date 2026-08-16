@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
 import { Heart, ArrowRight } from 'lucide-react';
+import { getAssetPath } from '../utils/assetHelper';
 
 const HeritageEnvelopeCover = ({ onOpen }) => {
   const { language } = useLanguage();
@@ -109,7 +110,7 @@ const HeritageEnvelopeCover = ({ onOpen }) => {
                 position: 'absolute',
                 width: '90%',
                 backgroundColor: '#FAF6EC',
-                backgroundImage: 'linear-gradient(rgba(250, 246, 236, 0.88), rgba(250, 246, 236, 0.88)), url("/assets/pressed_flowers_botanical.jpg")',
+                backgroundImage: `linear-gradient(rgba(250, 246, 236, 0.88), rgba(250, 246, 236, 0.88)), url("${getAssetPath('assets/pressed_flowers_botanical.jpg')}")`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 boxShadow: '0 20px 60px rgba(60, 30, 10, 0.45), 0 0 30px rgba(204, 167, 48, 0.3)',
@@ -124,9 +125,9 @@ const HeritageEnvelopeCover = ({ onOpen }) => {
                 zIndex: isOpen ? 35 : 2
               }}
             >
-              {/* Individual Transparent Botanical Cutout 1 (100% Transparent, zero checkerboard) */}
+              {/* Individual Transparent Botanical Cutout 1 */}
               <img 
-                src="/assets/botanical_cutout_1.png" 
+                src={getAssetPath('assets/botanical_cutout_1.png')} 
                 alt="Pressed Botanical Flower Cutout"
                 style={{
                   position: 'absolute',
@@ -144,7 +145,7 @@ const HeritageEnvelopeCover = ({ onOpen }) => {
               
               {/* Individual Transparent Botanical Cutout 2 */}
               <img 
-                src="/assets/botanical_cutout_2.png" 
+                src={getAssetPath('assets/botanical_cutout_2.png')} 
                 alt="Pressed Botanical Leaf Cutout"
                 style={{
                   position: 'absolute',
@@ -174,7 +175,7 @@ const HeritageEnvelopeCover = ({ onOpen }) => {
                 padding: '2px'
               }}>
                 <img 
-                  src="/assets/mother_daughter_quilling.jpg" 
+                  src={getAssetPath('assets/mother_daughter_quilling.jpg')} 
                   alt="Lotus Quilling" 
                   style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }}
                 />

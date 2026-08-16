@@ -3,12 +3,12 @@ import { useLanguage } from '../context/LanguageContext';
 
 // Photos displayed like a real scrapbook page with rotated polaroids, washi tape, and handwritten captions
 const photos = [
-  { src: '/assets/DSC_9568.JPG',            captionHi: 'रोशन मुस्कान 🌸',         captionEn: 'Radiant Smile 🌸',      rotate: 2,    tag: 'दिवाली' },
-  { src: '/assets/IMG-20260104-WA0123.jpg', captionHi: 'परिवार की खुशियाँ 💕',    captionEn: 'Family Joy 💕',          rotate: -1.5, tag: 'जश्न' },
-  { src: '/assets/IMG-20260104-WA0133.jpg', captionHi: 'हँसी और प्यार 🥰',       captionEn: 'Laughter & Love 🥰',     rotate: 2.8,  tag: 'साथ' },
-  { src: '/assets/IMG_20230923_224856.jpg', captionHi: 'अनमोल पल ✨',            captionEn: 'Precious Moments ✨',    rotate: -2.2, tag: 'यादें' },
-  { src: '/assets/IMG-20250511-WA0065.jpg', captionHi: 'प्यार और सुकून 💛',      captionEn: 'Warmth & Love 💛',       rotate: 1.8,  tag: 'हमेशा' },
-  { src: '/assets/Snapchat-1583182582.jpg', captionHi: 'हमारी माँ — हमारी दुनिया 🌍', captionEn: 'Our world 🌍',   rotate: -1,   tag: 'माँ' },
+  { src: 'assets/DSC_9568.JPG',            captionHi: 'रोशन मुस्कान 🌸',         captionEn: 'Radiant Smile 🌸',      rotate: 2,    tag: 'दिवाली' },
+  { src: 'assets/IMG-20260104-WA0123.jpg', captionHi: 'परिवार की खुशियाँ 💕',    captionEn: 'Family Joy 💕',          rotate: -1.5, tag: 'जश्न' },
+  { src: 'assets/IMG-20260104-WA0133.jpg', captionHi: 'हँसी और प्यार 🥰',       captionEn: 'Laughter & Love 🥰',     rotate: 2.8,  tag: 'साथ' },
+  { src: 'assets/IMG_20230923_224856.jpg', captionHi: 'अनमोल पल ✨',            captionEn: 'Precious Moments ✨',    rotate: -2.2, tag: 'यादें' },
+  { src: 'assets/IMG-20250511-WA0065.jpg', captionHi: 'प्यार और सुकून 💛',      captionEn: 'Warmth & Love 💛',       rotate: 1.8,  tag: 'हमेशा' },
+  { src: 'assets/Snapchat-1583182582.jpg', captionHi: 'हमारी माँ — हमारी दुनिया 🌍', captionEn: 'Our world 🌍',   rotate: -1,   tag: 'माँ' },
 ];
 
 const washiTypes = ['washi-stripe-gold', 'washi-stripe-rose', 'washi-stripe-gold'];

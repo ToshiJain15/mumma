@@ -41,7 +41,7 @@ const GhibliStory = () => {
             >
               <div className="glass-panel" style={{ padding: '15px', borderRadius: '4px' }}>
                 <img 
-                  src="/assets/ghibli_mother_child.jpg" 
+                  src="assets/ghibli_mother_child.jpg" 
                   alt="Mother and Child" 
                   style={{ width: '100%', borderRadius: '2px' }}
                 />
@@ -86,7 +86,7 @@ const GhibliStory = () => {
             >
               <div className="glass-panel" style={{ padding: '15px', borderRadius: '4px' }}>
                 <img 
-                  src="/assets/ghibli_mother_tea.jpg" 
+                  src="assets/ghibli_mother_tea.jpg" 
                   alt="Mother drinking tea" 
                   style={{ width: '100%', borderRadius: '2px' }}
                 />

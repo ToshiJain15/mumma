@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { Sparkles, Maximize2 } from 'lucide-react';
+import { getAssetPath } from '../utils/assetHelper';
 
 const memoriesPhotos = [
-  { id: 1, src: '/assets/mother_father_me_sister.jpg', captionEn: "Family Togetherness", captionHi: "पूरे परिवार की खुशियाँ", rotate: -1.5, tag: "FAMILY" },
-  { id: 2, src: '/assets/mother_and_her_mother.jpg', captionEn: "Mumma & Nani", captionHi: "Mumma और नानी (पीढ़ियों का प्यार)", rotate: 1.5, tag: "GENERATIONS" },
-  { id: 3, src: '/assets/mother_and_her_sisters.jpg', captionEn: "Mumma & Her Sisters", captionHi: "Mumma और मासियों का प्यार", rotate: -1.5, tag: "SISTERS" },
-  { id: 4, src: '/assets/father_mother_daughter_son_in.jpg', captionEn: "Cherished Celebrations", captionHi: "खुशियों का कारवां", rotate: 1.5, tag: "CELEBRATION" },
-  { id: 5, src: '/assets/collage_of_mother_solo_pics.jpg', captionEn: "Mumma's Radiant Elegance", captionHi: "Mumma के खूबसूरत रूप", rotate: -1.5, tag: "MATRIARCH" },
-  { id: 6, src: '/assets/collage_of mother_with_me.jpg', captionEn: "Precious Moments with Toshi", captionHi: "Toshi के साथ अनमोल पल", rotate: 1.5, tag: "TOSHI & MUMMA" },
-  { id: 7, src: '/assets/IMG-20250511-WA0065.jpg', captionEn: "Mother's Day Joy", captionHi: "मदर डे की खुशियाँ", rotate: -1.5, tag: "MOMENTS" },
-  { id: 8, src: '/assets/me_mother6.jpg', captionEn: "Unconditional Warmth & Love", captionHi: "असीम प्यार और दुलार", rotate: 1.5, tag: "TOGETHER" }
+  { id: 1, src: getAssetPath('assets/mother_father_me_sister.jpg'), captionEn: "Family Togetherness", captionHi: "पूरे परिवार की खुशियाँ", rotate: -1.5, tag: "FAMILY" },
+  { id: 2, src: getAssetPath('assets/mother_and_her_mother.jpg'), captionEn: "Mumma & Nani", captionHi: "Mumma और नानी (पीढ़ियों का प्यार)", rotate: 1.5, tag: "GENERATIONS" },
+  { id: 3, src: getAssetPath('assets/mother_and_her_sisters.jpg'), captionEn: "Mumma & Her Sisters", captionHi: "Mumma और मासियों का प्यार", rotate: -1.5, tag: "SISTERS" },
+  { id: 4, src: getAssetPath('assets/father_mother_daughter_son_in.jpg'), captionEn: "Cherished Celebrations", captionHi: "खुशियों का कारवां", rotate: 1.5, tag: "CELEBRATION" },
+  { id: 5, src: getAssetPath('assets/collage_of_mother_solo_pics.jpg'), captionEn: "Mumma's Radiant Elegance", captionHi: "Mumma के खूबसूरत रूप", rotate: -1.5, tag: "MATRIARCH" },
+  { id: 6, src: getAssetPath('assets/collage_of mother_with_me.jpg'), captionEn: "Precious Moments with Toshi", captionHi: "Toshi के साथ अनमोल पल", rotate: 1.5, tag: "TOSHI & MUMMA" },
+  { id: 7, src: getAssetPath('assets/IMG-20250511-WA0065.jpg'), captionEn: "Mother's Day Joy", captionHi: "मदर डे की खुशियाँ", rotate: -1.5, tag: "MOMENTS" },
+  { id: 8, src: getAssetPath('assets/me_mother6.jpg'), captionEn: "Unconditional Warmth & Love", captionHi: "असीम प्यार और दुलार", rotate: 1.5, tag: "TOGETHER" }
 ];
 
 const BeautifulMemoriesSpread = ({ onSelectPhoto }) => {

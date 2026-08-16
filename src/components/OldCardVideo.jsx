@@ -50,7 +50,7 @@ const OldCardVideo = () => {
             <div style={{ position: 'relative', background: '#000', overflow: 'hidden' }}>
               <video
                 ref={videoRef}
-                src="/assets/WhatsApp Video 2026-08-14 at 16.51.20.mp4"
+                src="assets/WhatsApp Video 2026-08-14 at 16.51.20.mp4"
                 style={{
                   width: '100%',
                   display: 'block',

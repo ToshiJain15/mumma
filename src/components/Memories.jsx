@@ -3,11 +3,11 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
 
 const memories = [
-  { src: '/assets/IMG-20260104-WA0123.jpg', width: '45%', top: '0', left: '0', speed: 0.1 },
-  { src: '/assets/DSC_9568.JPG', width: '60%', top: '15%', left: '40%', speed: -0.15 },
-  { src: '/assets/IMG_20230923_224856.jpg', width: '50%', top: '45%', left: '5%', speed: 0.05 },
-  { src: '/assets/IMG-20260104-WA0133.jpg', width: '40%', top: '60%', left: '55%', speed: -0.1 },
-  { src: '/assets/20230514_090841-COLLAGE.jpg', width: '70%', top: '85%', left: '15%', speed: 0.15 }
+  { src: 'assets/IMG-20260104-WA0123.jpg', width: '45%', top: '0', left: '0', speed: 0.1 },
+  { src: 'assets/DSC_9568.JPG', width: '60%', top: '15%', left: '40%', speed: -0.15 },
+  { src: 'assets/IMG_20230923_224856.jpg', width: '50%', top: '45%', left: '5%', speed: 0.05 },
+  { src: 'assets/IMG-20260104-WA0133.jpg', width: '40%', top: '60%', left: '55%', speed: -0.1 },
+  { src: 'assets/20230514_090841-COLLAGE.jpg', width: '70%', top: '85%', left: '15%', speed: 0.15 }
 ];
 
 const ParallaxImage = ({ img, index }) => {

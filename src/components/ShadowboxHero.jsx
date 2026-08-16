@@ -117,7 +117,7 @@ const ShadowboxHero = () => {
                 aspectRatio: '1/1'
               }}>
                 <img 
-                  src="/assets/DSC_5144.JPG" 
+                  src="assets/DSC_5144.JPG" 
                   alt="Maa" 
                   style={{
                     width: '100%',
@@ -162,7 +162,7 @@ const ShadowboxHero = () => {
                 aspectRatio: '1/1'
               }}>
                 <img 
-                  src="/assets/mother_daughter_quilling.jpg" 
+                  src="assets/mother_daughter_quilling.jpg" 
                   alt="Mother Daughter Quilling Art" 
                   style={{
                     width: '100%',

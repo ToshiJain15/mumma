@@ -31,7 +31,7 @@ const CardHeroSpread = () => {
             className="photo-polaroid photo-corners"
             style={{ transform: 'rotate(-2deg)', maxWidth: '260px', width: '100%' }}
           >
-            <img src="/assets/DSC_5144.JPG" alt="Maa" style={{ aspectRatio: '4/5', objectFit: 'cover' }} />
+            <img src="assets/DSC_5144.JPG" alt="Maa" style={{ aspectRatio: '4/5', objectFit: 'cover' }} />
             <div className="polaroid-caption">
               {language === 'hi' ? 'हमारी प्यारी माँ 🌸' : 'Our dearest Maa 🌸'}
             </div>
@@ -42,7 +42,7 @@ const CardHeroSpread = () => {
             className="photo-polaroid"
             style={{ transform: 'rotate(1.5deg)', maxWidth: '220px', width: '100%', marginTop: '8px' }}
           >
-            <img src="/assets/mother_daughter_quilling.jpg" alt="Mother Daughter" style={{ aspectRatio: '1/1', objectFit: 'cover' }} />
+            <img src="assets/mother_daughter_quilling.jpg" alt="Mother Daughter" style={{ aspectRatio: '1/1', objectFit: 'cover' }} />
             <div className="polaroid-caption">
               {language === 'hi' ? 'माँ और बेटी 💕' : 'Maa & Daughter 💕'}
             </div>

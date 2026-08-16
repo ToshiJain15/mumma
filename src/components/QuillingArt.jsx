@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { getAssetPath } from '../utils/assetHelper';
 
 const QuillingArt = () => {
   return (
@@ -37,7 +38,7 @@ const QuillingArt = () => {
 
       {/* Real High-Res Paper Quilling Artwork */}
       <img 
-        src="/assets/mother_daughter_quilling.jpg" 
+        src={getAssetPath('assets/mother_daughter_quilling.jpg')} 
         alt="Real Handmade Paper Quilling Artwork"
         style={{
           width: '100%',

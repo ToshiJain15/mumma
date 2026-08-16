@@ -68,7 +68,7 @@ body {
   color: var(--ink-text);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  background-image: radial-gradient(circle at 50% 35%, rgba(60, 35, 20, 0.45) 0%, rgba(25, 12, 5, 0.75) 85%), url("/assets/pressed_flowers_botanical.jpg");
+  background-image: radial-gradient(circle at 50% 35%, rgba(60, 35, 20, 0.45) 0%, rgba(25, 12, 5, 0.75) 85%), url("assets/pressed_flowers_botanical.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

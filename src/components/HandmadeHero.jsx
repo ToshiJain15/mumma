@@ -150,7 +150,7 @@ const HandmadeHero = () => {
               border: '1px solid #E5D5C0'
             }}>
               <img 
-                src="/assets/DSC_5144.JPG" 
+                src="assets/DSC_5144.JPG" 
                 alt="Maa" 
                 style={{
                   width: '100%',

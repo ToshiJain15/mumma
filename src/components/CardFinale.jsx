@@ -158,7 +158,7 @@ const CardFinale = () => {
           border: '1px solid rgba(212, 175, 55, 0.4)'
         }}>
           <img 
-            src="/assets/20230514_090841-COLLAGE.jpg" 
+            src="assets/20230514_090841-COLLAGE.jpg" 
             alt="Family Celebration"
             style={{
               width: '100%',

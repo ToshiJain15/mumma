@@ -18,7 +18,7 @@ const ArchiesInsideVerse = () => {
         maxWidth: '720px',
         margin: '0 auto',
         backgroundColor: '#FFFDF9',
-        backgroundImage: 'linear-gradient(rgba(255, 253, 249, 0.9), rgba(250, 246, 236, 0.9)), url("/assets/pressed_flowers_botanical.jpg")',
+        backgroundImage: 'linear-gradient(rgba(255, 253, 249, 0.9), rgba(250, 246, 236, 0.9)), url("assets/pressed_flowers_botanical.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         borderRadius: '16px',

@@ -91,7 +91,7 @@ const Finale = ({ onRestart }) => {
         }}
       >
         <img
-          src="/assets/DSC_5144.JPG"
+          src="assets/DSC_5144.JPG"
           alt="Maa"
           style={{ aspectRatio: '4/5', objectFit: 'cover' }}
         />

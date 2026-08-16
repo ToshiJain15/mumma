@@ -142,7 +142,7 @@ const ScrapbookCover = ({ onOpen }) => {
                 overflow: 'hidden'
               }}>
                 <img 
-                  src="/assets/mother_daughter_quilling.jpg" 
+                  src="assets/mother_daughter_quilling.jpg" 
                   alt="Mother Daughter Quilling"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.85 }}
                 />
@@ -226,7 +226,7 @@ const ScrapbookCover = ({ onOpen }) => {
                 overflow: 'hidden'
               }}>
                 <img 
-                  src="/assets/mother_daughter_quilling.jpg" 
+                  src="assets/mother_daughter_quilling.jpg" 
                   alt="Mother Daughter Quilling"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', transform: 'scaleX(-1)', opacity: 0.85 }}
                 />
@@ -274,7 +274,7 @@ const ScrapbookCover = ({ onOpen }) => {
                   position: 'relative'
                 }}>
                   <img 
-                    src="/assets/mother_daughter_quilling.jpg" 
+                    src="assets/mother_daughter_quilling.jpg" 
                     alt="Maa & Beti Quilling"
                     style={{
                       width: '100%',

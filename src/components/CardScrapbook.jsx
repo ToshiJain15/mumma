@@ -6,42 +6,42 @@ import { Camera, X, Heart } from 'lucide-react';
 const memoriesData = [
   {
     id: 1,
-    src: '/assets/IMG-20260104-WA0123.jpg',
+    src: 'assets/IMG-20260104-WA0123.jpg',
     captionEn: 'Cherished Family Moments',
     captionHi: 'परिवार के साथ अनमोल पल',
     rotate: -2.5
   },
   {
     id: 2,
-    src: '/assets/DSC_9568.JPG',
+    src: 'assets/DSC_9568.JPG',
     captionEn: 'Your Grace & Radiant Smile',
     captionHi: 'आपकी प्यारी सी मुस्कान',
     rotate: 2
   },
   {
     id: 3,
-    src: '/assets/IMG-20260104-WA0133.jpg',
+    src: 'assets/IMG-20260104-WA0133.jpg',
     captionEn: 'Laughter & Warmth Together',
     captionHi: 'साथ में ढेर सारी खुशियाँ',
     rotate: -1.8
   },
   {
     id: 4,
-    src: '/assets/IMG_20230923_224856.jpg',
+    src: 'assets/IMG_20230923_224856.jpg',
     captionEn: 'Every Memory with You is Gold',
     captionHi: 'हर लम्हा खास है आपके साथ',
     rotate: 2.2
   },
   {
     id: 5,
-    src: '/assets/IMG-20250511-WA0065.jpg',
+    src: 'assets/IMG-20250511-WA0065.jpg',
     captionEn: 'Endless Love & Blessings',
     captionHi: 'आपका प्यार और आशीर्वाद',
     rotate: -1.5
   },
   {
     id: 6,
-    src: '/assets/20230514_090841-COLLAGE.jpg',
+    src: 'assets/20230514_090841-COLLAGE.jpg',
     captionEn: 'A Lifetime of Beautiful Memories',
     captionHi: 'यादों का प्यारा सा गुलदस्ता',
     rotate: 1.8

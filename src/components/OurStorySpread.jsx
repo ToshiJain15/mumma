@@ -2,11 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
 import { Maximize2 } from 'lucide-react';
+import { getAssetPath } from '../utils/assetHelper';
 
 const storyPhotos = [
   {
     id: 1,
-    src: '/assets/childhood_photo_me_mother_father.jpg',
+    src: getAssetPath('assets/childhood_photo_me_mother_father.jpg'),
     captionEn: 'Childhood Memories 🌸',
     captionHi: 'बचपन की अनमोल यादें 🌸',
     tag: 'CHILDHOOD',
@@ -14,7 +15,7 @@ const storyPhotos = [
   },
   {
     id: 2,
-    src: '/assets/skectch_of-mother_me_and mysister.jpg',
+    src: getAssetPath('assets/skectch_of-mother_me_and mysister.jpg'),
     captionEn: 'Mumma, Toshi & Kriti 🎨',
     captionHi: 'Mumma, Toshi और Kriti का स्केच 🎨',
     tag: 'FAMILY SKETCH',
@@ -22,7 +23,7 @@ const storyPhotos = [
   },
   {
     id: 3,
-    src: '/assets/sketch_of_mother_collage.jpg',
+    src: getAssetPath('assets/sketch_of_mother_collage.jpg'),
     captionEn: 'Sketch Collection ✨',
     captionHi: 'सुंदर स्केच संग्रह ✨',
     tag: 'ARTISTIC COLLAGE',
@@ -30,7 +31,7 @@ const storyPhotos = [
   },
   {
     id: 4,
-    src: '/assets/latest_photo_me_and_mother.jpg',
+    src: getAssetPath('assets/latest_photo_me_and_mother.jpg'),
     captionEn: 'Together Today & Always ❤️',
     captionHi: 'आज का अनमोल साथ ❤️',
     tag: 'TOGETHER TODAY',
@@ -120,10 +121,10 @@ const OurStorySpread = ({ onSelectPhoto }) => {
               position: 'relative'
             }}
           >
-            {/* Raised Botanical Overlay for Cards 1 & 4 */}
+            {/* Raised Botanical Overlay */}
             {photo.id === 1 && (
               <img 
-                src="/assets/botanical_cutout_8.png" 
+                src={getAssetPath('assets/botanical_cutout_8.png')} 
                 alt="Raised Botanical 8"
                 style={{
                   position: 'absolute',
@@ -141,7 +142,7 @@ const OurStorySpread = ({ onSelectPhoto }) => {
             )}
             {photo.id === 4 && (
               <img 
-                src="/assets/botanical_cutout_9.png" 
+                src={getAssetPath('assets/botanical_cutout_9.png')} 
                 alt="Raised Botanical 9"
                 style={{
                   position: 'absolute',
@@ -158,7 +159,7 @@ const OurStorySpread = ({ onSelectPhoto }) => {
               />
             )}
 
-            {/* Folded Paper Pop-Up Stand Shadow Accent underneath */}
+            {/* Folded Paper Pop-Up Stand Shadow Accent */}
             <div style={{
               position: 'absolute',
               bottom: '-6px',

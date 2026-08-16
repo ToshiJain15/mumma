@@ -13,7 +13,7 @@ const reasonsData = [
     titleHi: 'आपकी प्यारी मुस्कान',
     descEn: 'The way your laughter brightens every corner of our home and makes every cloudy day peaceful.',
     descHi: 'आपकी एक मुस्कान पूरे घर को रोशन कर देती है और हर मुश्किल पल को आसान बना देती है।',
-    image: '/assets/me_mother2.jpg',
+    image: 'assets/me_mother2.jpg',
     color: '#800020'
   },
   {
@@ -25,7 +25,7 @@ const reasonsData = [
     titleHi: 'आपके हाथ का जादुई स्वाद',
     descEn: 'No feast on Earth can ever beat the warmth, aroma, and unconditional love in your cooking.',
     descHi: 'दुनिया का कोई भी व्यंजन आपके प्यार और ममता से बने खाने की बराबरी नहीं कर सकता।',
-    image: '/assets/mother_father.jpg',
+    image: 'assets/mother_father.jpg',
     color: '#E8871C'
   },
   {
@@ -37,7 +37,7 @@ const reasonsData = [
     titleHi: 'आपकी निस्वार्थ फिक्र',
     descEn: 'Always knowing what our hearts need before we even speak a single word.',
     descHi: 'हमारे बिना कुछ कहे ही दिल की बात जान लेना और हमेशा हमारी खुशियों के लिए दुआ करना।',
-    image: '/assets/me_mother3.jpg',
+    image: 'assets/me_mother3.jpg',
     color: '#C0392B'
   },
   {
@@ -49,7 +49,7 @@ const reasonsData = [
     titleHi: 'घर का सबसे मजबूत सहारा',
     descEn: 'Your presence is the anchor that holds our entire family together with love and grace.',
     descHi: 'आपके होने से ही घर में सुकून और खुशियाँ हैं। आप हमारे पूरे परिवार का सच्चा आशीर्वाद हैं।',
-    image: '/assets/mother_father2.jpg',
+    image: 'assets/mother_father2.jpg',
     color: '#B8860B'
   },
   {
@@ -61,7 +61,7 @@ const reasonsData = [
     titleHi: 'सदा आपकी मुस्कान का ख्याल',
     descEn: 'Toshi promises to cherish, respect, and keep you smiling every single day of our lives.',
     descHi: 'Toshi वादा करती है कि आपकी मुस्कान और खुशियों का ख्याल हमेशा अपनी जान से बढ़कर रखेगी।',
-    image: '/assets/me_mother7.jpg',
+    image: 'assets/me_mother7.jpg',
     color: '#7A9E7E'
   }
 ];

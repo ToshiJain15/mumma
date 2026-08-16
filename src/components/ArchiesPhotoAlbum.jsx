@@ -6,7 +6,7 @@ import { Camera, X, Heart, Sparkles, Smile, Star } from 'lucide-react';
 const memoriesData = [
   {
     id: 1,
-    src: '/assets/IMG-20260104-WA0123.jpg',
+    src: 'assets/IMG-20260104-WA0123.jpg',
     captionEn: 'Precious Moments with Family',
     captionHi: 'परिवार के साथ हँसते-खिलखिलाते पल',
     tag: 'Sweetest Memories',
@@ -15,7 +15,7 @@ const memoriesData = [
   },
   {
     id: 2,
-    src: '/assets/DSC_9568.JPG',
+    src: 'assets/DSC_9568.JPG',
     captionEn: 'Your Beautiful Radiant Glow',
     captionHi: 'आपकी प्यारी सी खिली हुई मुस्कान',
     tag: 'Pure Elegance',
@@ -24,7 +24,7 @@ const memoriesData = [
   },
   {
     id: 3,
-    src: '/assets/IMG-20260104-WA0133.jpg',
+    src: 'assets/IMG-20260104-WA0133.jpg',
     captionEn: 'Laughter, Fun & Boundless Love',
     captionHi: 'ढेर सारा प्यार और खुशियाँ',
     tag: 'Joy Unbounded',
@@ -33,7 +33,7 @@ const memoriesData = [
   },
   {
     id: 4,
-    src: '/assets/IMG_20230923_224856.jpg',
+    src: 'assets/IMG_20230923_224856.jpg',
     captionEn: 'Special Celebrations Together',
     captionHi: 'साथ में हर दिन त्योहार जैसा',
     tag: 'Golden Times',
@@ -42,7 +42,7 @@ const memoriesData = [
   },
   {
     id: 5,
-    src: '/assets/IMG-20250511-WA0065.jpg',
+    src: 'assets/IMG-20250511-WA0065.jpg',
     captionEn: 'Always Surrounded by Our Love',
     captionHi: 'आपका असीम प्यार और आशीर्वाद',
     tag: 'Endless Warmth',
@@ -51,7 +51,7 @@ const memoriesData = [
   },
   {
     id: 6,
-    src: '/assets/20230514_090841-COLLAGE.jpg',
+    src: 'assets/20230514_090841-COLLAGE.jpg',
     captionEn: 'A Scrapbook of Lifelong Love',
     captionHi: 'यादों का एक प्यारा सा गुलदस्ता',
     tag: 'Family Forever',

@@ -173,7 +173,7 @@ const ArchiesCakeFinale = () => {
           border: '2px solid var(--archies-gold)'
         }}>
           <img 
-            src="/assets/20230514_090841-COLLAGE.jpg" 
+            src="assets/20230514_090841-COLLAGE.jpg" 
             alt="Family Celebration"
             style={{
               width: '100%',

@@ -93,7 +93,7 @@ const Hero = () => {
                 animate={{ scale: 1 }}
                 transition={{ duration: 3, ease: "easeOut" }}
                 whileHover={{ scale: 1.02 }}
-                src="/assets/DSC_5144.JPG" 
+                src="assets/DSC_5144.JPG" 
                 alt="Maa" 
                 style={{
                   width: '100%',

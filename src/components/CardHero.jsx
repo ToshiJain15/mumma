@@ -108,7 +108,7 @@ const CardHero = () => {
             }}>
               <div style={{ overflow: 'hidden', borderRadius: '4px' }}>
                 <img 
-                  src="/assets/DSC_5144.JPG" 
+                  src="assets/DSC_5144.JPG" 
                   alt="Maa" 
                   style={{
                     width: '100%',

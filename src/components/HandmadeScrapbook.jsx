@@ -6,7 +6,7 @@ import { Camera, X, Heart, Sparkles, Pin } from 'lucide-react';
 const memoriesData = [
   {
     id: 1,
-    src: '/assets/IMG-20260104-WA0123.jpg',
+    src: 'assets/IMG-20260104-WA0123.jpg',
     captionEn: 'Precious Moments with Family',
     captionHi: 'परिवार के साथ हँसते-खिलखिलाते पल',
     rotate: -2.8,
@@ -14,7 +14,7 @@ const memoriesData = [
   },
   {
     id: 2,
-    src: '/assets/DSC_9568.JPG',
+    src: 'assets/DSC_9568.JPG',
     captionEn: 'Your Gentle & Radiant Smile',
     captionHi: 'आपकी प्यारी सी खिली हुई मुस्कान',
     rotate: 2.2,
@@ -22,7 +22,7 @@ const memoriesData = [
   },
   {
     id: 3,
-    src: '/assets/IMG-20260104-WA0133.jpg',
+    src: 'assets/IMG-20260104-WA0133.jpg',
     captionEn: 'Laughter, Fun & Boundless Love',
     captionHi: 'ढेर सारा प्यार और खुशियाँ',
     rotate: -1.8,
@@ -30,7 +30,7 @@ const memoriesData = [
   },
   {
     id: 4,
-    src: '/assets/IMG_20230923_224856.jpg',
+    src: 'assets/IMG_20230923_224856.jpg',
     captionEn: 'Memories That Warm Our Hearts',
     captionHi: 'हर लम्हा खास है आपके साथ',
     rotate: 2.5,
@@ -38,7 +38,7 @@ const memoriesData = [
   },
   {
     id: 5,
-    src: '/assets/IMG-20250511-WA0065.jpg',
+    src: 'assets/IMG-20250511-WA0065.jpg',
     captionEn: 'Surrounded by Love & Blessings',
     captionHi: 'आपका असीम प्यार और ममता',
     rotate: -2.4,
@@ -46,7 +46,7 @@ const memoriesData = [
   },
   {
     id: 6,
-    src: '/assets/20230514_090841-COLLAGE.jpg',
+    src: 'assets/20230514_090841-COLLAGE.jpg',
     captionEn: 'A Scrapbook of Lifelong Love',
     captionHi: 'यादों का एक प्यारा सा गुलदस्ता',
     rotate: 1.8,

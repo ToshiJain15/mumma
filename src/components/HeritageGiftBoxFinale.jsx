@@ -237,7 +237,7 @@ const HeritageGiftBoxFinale = () => {
                 minHeight: '260px'
               }}>
                 <img 
-                  src="/assets/the_whole_family.JPG" 
+                  src="assets/the_whole_family.JPG" 
                   alt="Whole Family Memory"
                   style={{ maxWidth: '100%', maxHeight: '420px', width: 'auto', height: 'auto', objectFit: 'contain', display: 'block', borderRadius: '4px' }}
                 />

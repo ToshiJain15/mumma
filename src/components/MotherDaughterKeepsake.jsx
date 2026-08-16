@@ -2,11 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
 import { Sparkles, Maximize2 } from 'lucide-react';
+import { getAssetPath } from '../utils/assetHelper';
 
 const keepsakePhotos = [
   {
     id: 1,
-    src: '/assets/mother_solo_pic.jpg',
+    src: getAssetPath('assets/mother_solo_pic.jpg'),
     captionEn: 'Dearest Mumma ❤️',
     captionHi: 'हमारी प्यारी Mumma ❤️',
     tag: 'MATRIARCH',
@@ -14,7 +15,7 @@ const keepsakePhotos = [
   },
   {
     id: 2,
-    src: '/assets/me_mother.jpg',
+    src: getAssetPath('assets/me_mother.jpg'),
     captionEn: 'Mumma & Toshi ✨',
     captionHi: 'Mumma और Toshi ✨',
     tag: 'TOSHI & MUMMA',
@@ -22,7 +23,7 @@ const keepsakePhotos = [
   },
   {
     id: 3,
-    src: '/assets/me_mother_and_sister.JPG',
+    src: getAssetPath('assets/me_mother_and_sister.JPG'),
     captionEn: 'Mumma, Toshi & Kriti 🌸',
     captionHi: 'Mumma, Toshi और Kriti 🌸',
     tag: 'SISTERS & MUMMA',
@@ -30,7 +31,7 @@ const keepsakePhotos = [
   },
   {
     id: 4,
-    src: '/assets/me_mother4.jpg',
+    src: getAssetPath('assets/me_mother4.jpg'),
     captionEn: 'Warm Hugs & Smiles ❤️',
     captionHi: 'प्यार भरा साथ ❤️',
     tag: 'CHERISHED',
@@ -92,7 +93,7 @@ const MotherDaughterKeepsake = ({ onSelectPhoto }) => {
             margin: '0 auto 36px auto',
             padding: '24px 28px',
             backgroundColor: '#FFFDF9',
-            backgroundImage: 'linear-gradient(rgba(255, 253, 249, 0.88), rgba(255, 253, 249, 0.88)), url("/assets/pressed_flowers_botanical.jpg")',
+            backgroundImage: `linear-gradient(rgba(255, 253, 249, 0.88), rgba(255, 253, 249, 0.88)), url("${getAssetPath('assets/pressed_flowers_botanical.jpg')}")`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             borderRadius: '14px',
@@ -104,7 +105,7 @@ const MotherDaughterKeepsake = ({ onSelectPhoto }) => {
         >
           {/* Raised 3D Transparent Botanical Cutout 6 */}
           <img 
-            src="/assets/botanical_cutout_6.png" 
+            src={getAssetPath('assets/botanical_cutout_6.png')} 
             alt="Raised Botanical Cutout 6"
             style={{
               position: 'absolute',
@@ -120,7 +121,7 @@ const MotherDaughterKeepsake = ({ onSelectPhoto }) => {
           />
           {/* Raised 3D Transparent Botanical Cutout 7 */}
           <img 
-            src="/assets/botanical_cutout_7.png" 
+            src={getAssetPath('assets/botanical_cutout_7.png')} 
             alt="Raised Botanical Cutout 7"
             style={{
               position: 'absolute',
@@ -220,7 +221,7 @@ const MotherDaughterKeepsake = ({ onSelectPhoto }) => {
                 position: 'relative'
               }}
             >
-              {/* Folded Paper Pop-Up Stand Shadow Accent underneath */}
+              {/* Folded Paper Pop-Up Stand Shadow Accent */}
               <div style={{
                 position: 'absolute',
                 bottom: '-6px',

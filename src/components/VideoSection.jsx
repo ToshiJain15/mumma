@@ -105,9 +105,9 @@ const VideoSection = () => {
               controls
               preload="metadata"
               style={{ width: '100%', display: 'block', maxHeight: '360px', objectFit: 'contain', background: '#000' }}
-              poster="/assets/mother_daughter_quilling.jpg"
+              poster="assets/mother_daughter_quilling.jpg"
             >
-              <source src="/assets/WhatsApp Video 2026-08-14 at 16.51.20.mp4" type="video/mp4" />
+              <source src="assets/WhatsApp Video 2026-08-14 at 16.51.20.mp4" type="video/mp4" />
             </video>
           </div>
         )}

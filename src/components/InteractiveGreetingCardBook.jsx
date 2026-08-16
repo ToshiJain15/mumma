@@ -56,7 +56,7 @@ const InteractiveGreetingCardBook = ({ onSelectPhoto }) => {
             maxWidth: '520px',
             margin: '20px auto',
             backgroundColor: '#FAF6EC',
-            backgroundImage: 'url("/assets/stitch_seamless_watercolor_paper.png")',
+            backgroundImage: 'url("assets/stitch_seamless_watercolor_paper.png")',
             backgroundRepeat: 'repeat',
             borderRadius: '16px',
             border: '3px solid #CCA730',
@@ -70,7 +70,7 @@ const InteractiveGreetingCardBook = ({ onSelectPhoto }) => {
         >
           {/* Transparent Botanical Cutout 3 */}
           <img 
-            src="/assets/botanical_cutout_3.png" 
+            src="assets/botanical_cutout_3.png" 
             alt="Botanical Cutout 3"
             style={{
               position: 'absolute',
@@ -182,7 +182,7 @@ const InteractiveGreetingCardBook = ({ onSelectPhoto }) => {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           style={{
             backgroundColor: '#FAF6EC',
-            backgroundImage: 'url("/assets/stitch_seamless_watercolor_paper.png")',
+            backgroundImage: 'url("assets/stitch_seamless_watercolor_paper.png")',
             backgroundRepeat: 'repeat',
             borderRadius: '20px',
             border: '3.5px solid #CCA730',
@@ -196,7 +196,7 @@ const InteractiveGreetingCardBook = ({ onSelectPhoto }) => {
 
           {/* Individual Transparent Botanical Cutout 4 */}
           <img 
-            src="/assets/botanical_cutout_4.png" 
+            src="assets/botanical_cutout_4.png" 
             alt="Botanical Cutout 4"
             style={{
               position: 'absolute',
@@ -213,7 +213,7 @@ const InteractiveGreetingCardBook = ({ onSelectPhoto }) => {
 
           {/* Individual Transparent Botanical Cutout 5 */}
           <img 
-            src="/assets/botanical_cutout_5.png" 
+            src="assets/botanical_cutout_5.png" 
             alt="Botanical Cutout 5"
             style={{
               position: 'absolute',

@@ -174,7 +174,7 @@ const HandmadeCakeFinale = () => {
           position: 'relative'
         }}>
           <img 
-            src="/assets/20230514_090841-COLLAGE.jpg" 
+            src="assets/20230514_090841-COLLAGE.jpg" 
             alt="Family Celebration"
             style={{
               width: '100%',

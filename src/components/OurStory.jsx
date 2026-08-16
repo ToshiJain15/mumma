@@ -55,7 +55,7 @@ const OurStory = () => {
           >
             <div className="washi washi-stripe-gold" style={{ width: 70, top: -9, left: '30%', transform: 'translateX(-50%) rotate(-10deg)' }} />
             <img
-              src="/assets/mother_daughter_braid.jpg"
+              src="assets/mother_daughter_braid.jpg"
               alt="Childhood memory"
               style={{ aspectRatio: '1/1', objectFit: 'cover' }}
             />
@@ -89,7 +89,7 @@ const OurStory = () => {
           >
             <div className="washi washi-stripe-rose" style={{ width: 70, bottom: -9, right: '25%', transform: 'translateX(50%) rotate(8deg)' }} />
             <img
-              src="/assets/mother_daughter_chai.jpg"
+              src="assets/mother_daughter_chai.jpg"
               alt="Chai together"
               style={{ aspectRatio: '1/1', objectFit: 'cover' }}
             />
