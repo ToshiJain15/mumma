@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Maa's Day - Happy Birthday</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&amp;family=Noto+Serif:wght@700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-container": "#4f3d00",
+                        "on-secondary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#fefccf",
+                        "surface-container-high": "#eceabe",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed-dim": "#e9c349",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#f5f3c7",
+                        "on-primary-fixed-variant": "#8e0f28",
+                        "primary-fixed": "#ffdada",
+                        "outline-variant": "#e0bfbf",
+                        "primary-fixed-dim": "#ffb3b5",
+                        "secondary-fixed-dim": "#e7bdb1",
+                        "on-surface": "#1d1d03",
+                        "secondary": "#77574d",
+                        "on-tertiary-fixed": "#241a00",
+                        "tertiary-container": "#cca730",
+                        "on-background": "#1d1d03",
+                        "surface-dim": "#dedcb1",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed": "#ffe088",
+                        "on-tertiary": "#ffffff",
+                        "primary-container": "#800020",
+                        "background": "#fefccf",
+                        "on-secondary-container": "#795950",
+                        "surface-container-low": "#f8f6c9",
+                        "on-secondary-fixed-variant": "#5d4037",
+                        "on-primary-container": "#ff828a",
+                        "error": "#ba1a1a",
+                        "surface-container": "#f2f0c4",
+                        "secondary-container": "#fed3c7",
+                        "surface-variant": "#e6e5b9",
+                        "surface-tint": "#af2b3e",
+                        "on-surface-variant": "#584141",
+                        "surface": "#fefccf",
+                        "outline": "#8c7071",
+                        "on-tertiary-fixed-variant": "#574500",
+                        "secondary-fixed": "#ffdbd0",
+                        "primary": "#570013",
+                        "tertiary": "#735c00",
+                        "inverse-surface": "#323214",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed": "#40000b",
+                        "inverse-primary": "#ffb3b5",
+                        "surface-container-highest": "#e6e5b9",
+                        "on-secondary-fixed": "#2c160e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-md": "1.5rem",
+                        "margin-page": "2rem",
+                        "photo-padding": "1rem",
+                        "stack-lg": "3rem",
+                        "stack-sm": "0.5rem",
+                        "gutter-grid": "1.5rem"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Playfair Display"],
+                        "display-hindi": ["Noto Serif"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "body-lg": ["Montserrat"],
+                        "body-md": ["Montserrat"],
+                        "label-caps": ["Montserrat"],
+                        "headline-md": ["Playfair Display"],
+                        "quote-serif": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["40px", { "lineHeight": "48px", "fontWeight": "700" }],
+                        "display-hindi": ["48px", { "lineHeight": "60px", "fontWeight": "700" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "quote-serif": ["22px", { "lineHeight": "32px" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #d1cbc1; /* Subdued background to make the scrapbook pop */
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+            cursor: default;
+        }
+        .scrapbook-texture {
+            background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDIBjnzJU5YlY8Wf4yuwpceplaStUwekdQku1_dlK3pKlAeN9DTA_ZRMmtxin-4u4B-8SBqBKoawfTRYNAFlV_lGET_yjs--ozvx2Vi_BPMMY7Bju02LGuRTEI1pKWAIf9Qai59Xn61WPO1E49iha4Pht_20Bjvj6TFvI82QAti_lH0k8d_o8nqZdqbnxjN4_a8r9yjoVPmCz1L-ySZJfjpJCfGplqpF_lwoMMamjeZs-t1ry6yXOlElA');
+            background-size: cover;
+            background-repeat: repeat;
+        }
+        .golden-particle {
+            position: absolute;
+            background: radial-gradient(circle, #cca730 0%, transparent 70%);
+            border-radius: 50%;
+            opacity: 0.6;
+            pointer-events: none;
+            animation: float-up 10s linear infinite;
+        }
+        .rose-petal {
+            position: absolute;
+            background: #ffb3b5;
+            border-radius: 15px 0 15px 0;
+            opacity: 0.4;
+            pointer-events: none;
+            animation: drift-down linear infinite;
+        }
+        @keyframes float-up {
+            0% { transform: translateY(110vh) scale(0.5); opacity: 0; }
+            10% { opacity: 0.6; }
+            90% { opacity: 0.6; }
+            100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+        }
+        @keyframes drift-down {
+            0% { transform: translateY(-10vh) rotate(0deg) translateX(0); opacity: 0; }
+            10% { opacity: 0.6; }
+            90% { opacity: 0.6; }
+            100% { transform: translateY(110vh) rotate(360deg) translateX(100px); opacity: 0; }
+        }
+        
+        /* 3D Card Animation */
+        .card-scene {
+            perspective: 2500px;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 20;
+            aspect-ratio: 3/4;
+        }
+        .card-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 1.5s cubic-bezier(0.25, 1, 0.5, 1);
+            transform-origin: left center;
+        }
+        .card-scene.is-open .card-container {
+            transform: rotateY(-160deg);
+        }
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 8px;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
+            transform-style: preserve-3d;
+        }
+        .card-front {
+            z-index: 2;
+            transform: rotateY(0deg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-right: 2px solid rgba(0,0,0,0.1);
+        }
+        .card-back {
+            transform: rotateY(180deg);
+            z-index: 1;
+            border-left: 2px solid rgba(0,0,0,0.1);
+        }
+        .card-inside-right {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            box-shadow: 20px 25px 50px -12px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+        
+        /* Scrapbook Elements */
+        .washi-tape {
+            position: absolute;
+            width: 120px;
+            height: 30px;
+            background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD9H3Sq79DTmeclcyj2SBTLWv3NAGy6aYjRww46P8t7xF7zmWO6LivmfRWev6I7ZMaftFJBe12GXPlmXgtsXYvxIvt-8zQgB7p7HuJ8_JgnSmQTcT3XRxu3NcYMYO4Xo0oY-yDcv_NrXh8dymJ-6QcyrE9GzG7P2OdQDBldN2TRE3JfFtwTFPOI1D7CV761HJvKkMavZXW_WLfbeXEiNOGSLB4pHS44G9BWijd6q7wBcKlbczJ630TuDw');
+            background-size: 500%; /* Fake sprite map usage */
+            background-position: top right;
+            opacity: 0.9;
+            z-index: 5;
+            mix-blend-mode: multiply;
+        }
+        .washi-top-left { top: -10px; left: -20px; transform: rotate(-15deg); }
+        .washi-bottom-right { bottom: -10px; right: -20px; transform: rotate(-5deg); }
+        
+        .photo-corners {
+            position: relative;
+        }
+        .photo-corners::before, .photo-corners::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #570013;
+            z-index: 5;
+        }
+        .photo-corners::before { top: -5px; left: -5px; border-right: none; border-bottom: none; }
+        .photo-corners::after { bottom: -5px; right: -5px; border-left: none; border-top: none; }
+
+        .photo-frame-scrapbook {
+            position: relative;
+            padding: 1rem;
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        
+        .vellum-layer {
+            position: absolute;
+            inset: -1rem;
+            background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDW8lRMfGkKM0OT9f7y7FEHoPgfmwiycs0q-0-YdPeh_2BU3lOURR1_mC1ud1_-DOKiSsXWOmkIYN5bqUZuqgvazaoRD97150o5FsyCGBVRpCYr0JAJc4jwMcu5AodPPPxRSWu3gA4txPsga4dNjJw9rX7iyv8PI9unqPvcEpTQiLGaO7jUESqGd_FDMQK6Gj7Xx6BpdhBaUcaeB30UzfH_gv9gFWZM79mJra2fqqC9Z_0sXsawHWwoyg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.6;
+            mix-blend-mode: overlay;
+            z-index: -1;
+            box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .stitched-line {
+            position: absolute;
+            border-left: 2px dashed #8c7071;
+            height: 100px;
+            z-index: 0;
+        }
+
+        /* Pull Tab */
+        .pull-tab-container {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 2rem;
+        }
+        .pull-tab {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #cca730;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 4px 4px 0 0;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            z-index: 10;
+        }
+        .pull-tab:hover {
+            transform: translateX(-50%) translateY(-5px);
+        }
+        .hidden-message {
+            max-height: 0;
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.5);
+            margin-top: 1rem;
+            border-radius: 4px;
+        }
+        .pull-tab-container.is-pulled .hidden-message {
+            max-height: 200px;
+            opacity: 1;
+            padding: 1rem;
+        }
+
+        .text-shadow-elegant {
+            text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+        }
+
+        @media (prefers-reduced-motion: no-preference) {
+            .shimmer-text {
+                background: linear-gradient(to right, #570013 20%, #cca730 40%, #cca730 60%, #570013 80%);
+                background-size: 200% auto;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                animation: shimmer 3s linear infinite;
+            }
+            @keyframes shimmer {
+                to { background-position: 200% center; }
+            }
+        }
+    </style>
+</head>
+<body class="text-on-background min-h-screen flex flex-col relative overflow-x-hidden">
+<!-- Floating Particles Container -->
+<div class="fixed inset-0 pointer-events-none z-0" id="particles-container"></div>
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-page py-4 bg-surface-container-low/80 backdrop-blur-md shadow-sm">
+<div class="font-headline-md text-headline-md italic text-shadow-elegant text-primary">
+            For Maa
+        </div>
+<div class="flex items-center gap-4 text-primary">
+<button aria-label="Toggle Language" class="hover:text-tertiary-container transition-colors flex items-center gap-1 bg-surface-variant px-3 py-1 rounded-full">
+<span class="font-label-caps">EN | HI</span>
+<span class="material-symbols-outlined text-xl">language</span>
+</button>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow flex flex-col pt-24 pb-32 px-margin-page relative z-10">
+<section class="max-w-6xl mx-auto w-full flex flex-col items-center mt-8">
+<!-- 3D Card Opening Hero -->
+<div class="relative w-full max-w-4xl mx-auto flex justify-center perspective-container mb-stack-lg">
+<!-- The static "back" page that stays visible when cover opens -->
+<div class="card-inside-right scrapbook-texture hidden md:flex flex-col items-center justify-center p-8 absolute right-0 w-1/2 opacity-0 transition-opacity duration-1000 delay-500" id="inside-right-page">
+<div class="vellum-layer"></div>
+<div class="relative z-10 text-center max-w-sm">
+<h1 class="font-headline-lg-mobile md:font-headline-lg text-primary mb-6 shimmer-text">
+                    Happy Birthday, Maa ❤️
+                </h1>
+<p class="font-display-hindi text-[28px] md:text-[36px] text-secondary leading-snug mb-6" style="color: #77574d;">
+                    आप हमारे लिए सिर्फ माँ नहीं हैं, आप हमारे घर की सबसे खूबसूरत मुस्कान हैं।
+                </p>
+<div class="flex items-center justify-center gap-4 mb-6">
+<div class="h-[1px] w-12 bg-gradient-to-r from-transparent via-tertiary-container to-transparent"></div>
+<span class="material-symbols-outlined text-tertiary-container text-sm">favorite</span>
+<div class="h-[1px] w-12 bg-gradient-to-r from-transparent via-tertiary-container to-transparent"></div>
+</div>
+<p class="font-quote-serif text-quote-serif text-on-surface-variant italic">
+                    "You make every place feel like home."
+                </p>
+</div>
+</div>
+<!-- The animated Cover -->
+<div class="card-scene" id="main-card">
+<div class="card-container cursor-pointer" onclick="openCard()">
+<!-- Front Cover -->
+<div class="card-face card-front scrapbook-texture">
+<!-- Decorative corner elements -->
+<div class="absolute top-4 left-4 w-16 h-16 opacity-70 bg-[url('https://lh3.googleusercontent.com/aida-public/AB6AXuD9H3Sq79DTmeclcyj2SBTLWv3NAGy6aYjRww46P8t7xF7zmWO6LivmfRWev6I7ZMaftFJBe12GXPlmXgtsXYvxIvt-8zQgB7p7HuJ8_JgnSmQTcT3XRxu3NcYMYO4Xo0oY-yDcv_NrXh8dymJ-6QcyrE9GzG7P2OdQDBldN2TRE3JfFtwTFPOI1D7CV761HJvKkMavZXW_WLfbeXEiNOGSLB4pHS44G9BWijd6q7wBcKlbczJ630TuDw')] bg-no-repeat bg-[length:500%] bg-[position:0_0]"></div>
+<div class="absolute bottom-4 right-4 w-16 h-16 opacity-70 bg-[url('https://lh3.googleusercontent.com/aida-public/AB6AXuD9H3Sq79DTmeclcyj2SBTLWv3NAGy6aYjRww46P8t7xF7zmWO6LivmfRWev6I7ZMaftFJBe12GXPlmXgtsXYvxIvt-8zQgB7p7HuJ8_JgnSmQTcT3XRxu3NcYMYO4Xo0oY-yDcv_NrXh8dymJ-6QcyrE9GzG7P2OdQDBldN2TRE3JfFtwTFPOI1D7CV761HJvKkMavZXW_WLfbeXEiNOGSLB4pHS44G9BWijd6q7wBcKlbczJ630TuDw')] bg-no-repeat bg-[length:500%] bg-[position:100%_100%] transform rotate-180"></div>
+<h2 class="font-headline-lg text-primary mb-8 tracking-wide">Maa's Keepsake</h2>
+<!-- Aperture Window -->
+<div class="relative w-64 h-80 rounded-sm border-8 border-surface-container-highest shadow-inner overflow-hidden mb-8 bg-surface-variant flex items-center justify-center photo-corners">
+<img alt="Peek inside" class="w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmEQPawyOWZWbvYUtOckplDML3tYs1TE3B88AqdCNIMBuu9WB8wyP7rwD-dKQrfugYNr9Ajut_rZS_fEt9i78pWWWSSlVBZrnOKCiqTSp0hjxJO-IVkD2Ah4qBATdb9_3gjFSsYVk7tGY3VM9f37L8shtA1RbtVguyaKgoIHqvJ1uVrF9Z3MvRt06zXKLytGm4wc6L3BsS7IqBw50rxVSIZq4Mr-zJYJN9zL38YbzDuZ4P9-dn-x_-Yw"/>
+<!-- Wax seal -->
+<div class="absolute -bottom-6 -right-6 w-24 h-24 bg-[url('https://lh3.googleusercontent.com/aida-public/AB6AXuD9H3Sq79DTmeclcyj2SBTLWv3NAGy6aYjRww46P8t7xF7zmWO6LivmfRWev6I7ZMaftFJBe12GXPlmXgtsXYvxIvt-8zQgB7p7HuJ8_JgnSmQTcT3XRxu3NcYMYO4Xo0oY-yDcv_NrXh8dymJ-6QcyrE9GzG7P2OdQDBldN2TRE3JfFtwTFPOI1D7CV761HJvKkMavZXW_WLfbeXEiNOGSLB4pHS44G9BWijd6q7wBcKlbczJ630TuDw')] bg-no-repeat bg-[length:500%] bg-[position:50%_50%] z-20 drop-shadow-lg"></div>
+</div>
+<p class="font-label-caps text-secondary tracking-widest mt-4 animate-pulse">Tap to open</p>
+</div>
+<!-- Inside Left Cover -->
+<div class="card-face card-back scrapbook-texture p-8 flex flex-col items-center justify-center">
+<div class="photo-frame-scrapbook rotate-[-2deg] max-w-sm w-full photo-corners">
+<div class="washi-tape washi-top-left"></div>
+<img alt="Hero Portrait" class="w-full h-auto object-cover aspect-[4/5]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmEQPawyOWZWbvYUtOckplDML3tYs1TE3B88AqdCNIMBuu9WB8wyP7rwD-dKQrfugYNr9Ajut_rZS_fEt9i78pWWWSSlVBZrnOKCiqTSp0hjxJO-IVkD2Ah4qBATdb9_3gjFSsYVk7tGY3VM9f37L8shtA1RbtVguyaKgoIHqvJ1uVrF9Z3MvRt06zXKLytGm4wc6L3BsS7IqBw50rxVSIZq4Mr-zJYJN9zL38YbzDuZ4P9-dn-x_-Yw"/>
+<div class="mt-4 text-center">
+<span class="font-quote-serif italic text-secondary text-lg">The heart of our family</span>
+</div>
+<div class="washi-tape washi-bottom-right"></div>
+</div>
+<!-- Mobile only message (since right page is hidden on small screens in this 3D setup) -->
+<div class="md:hidden mt-8 text-center bg-surface-container-lowest/80 p-6 rounded-lg backdrop-blur-sm border border-outline-variant">
+<h1 class="font-headline-md text-primary mb-4 shimmer-text">Happy Birthday, Maa ❤️</h1>
+<p class="font-display-hindi text-2xl text-secondary leading-snug mb-4">आप हमारे घर की सबसे खूबसूरत मुस्कान हैं।</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Scrapbook Spreads -->
+<div class="opacity-0 transition-opacity duration-1000 max-w-5xl mx-auto w-full relative z-20" id="scrapbook-content">
+<!-- Our Story Spread -->
+<section class="py-16 px-4 md:px-margin-page mt-12 relative scrapbook-texture shadow-2xl rounded-sm mb-16 overflow-hidden">
+<div class="vellum-layer"></div>
+<div class="text-center mb-16 relative z-10">
+<h2 class="font-headline-lg text-primary mb-2">Our Story</h2>
+<p class="font-quote-serif text-secondary italic">Threads of love over the years.</p>
+</div>
+<div class="relative grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-8 items-center max-w-4xl mx-auto">
+<!-- Stitched thread connecting photos (desktop) -->
+<div class="hidden md:block absolute top-1/2 left-1/4 w-1/2 h-[2px] border-t-2 border-dashed border-primary/40 z-0"></div>
+<div class="relative z-10 flex flex-col items-center">
+<div class="photo-frame-scrapbook rotate-2 w-64 h-64 photo-corners bg-surface-container-high flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-4xl text-outline-variant">child_care</span>
+<div class="washi-tape washi-top-left" style="transform: rotate(20deg);"></div>
+</div>
+<div class="mt-6 text-center max-w-xs bg-[#fdfaf5] p-4 rounded shadow-sm border border-outline-variant rotate-[-1deg]">
+<p class="font-body-md text-on-surface-variant font-handwriting">Always holding my hand through every first step.</p>
+</div>
+</div>
+<div class="relative z-10 flex flex-col items-center md:mt-24">
+<div class="photo-frame-scrapbook -rotate-3 w-72 h-80 photo-corners shadow-xl bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-outline-variant">volunteer_activism</span>
+<div class="washi-tape washi-bottom-right"></div>
+</div>
+<div class="mt-6 text-center max-w-xs bg-[#fdfaf5] p-4 rounded shadow-sm border border-outline-variant rotate-1">
+<p class="font-body-md text-on-surface-variant font-handwriting">And still my biggest cheerleader today.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Beautiful Memories Section -->
+<section class="py-16 px-4 md:px-margin-page relative scrapbook-texture shadow-2xl rounded-sm mb-16" id="memories-section">
+<div class="text-center mb-12 relative z-10">
+<h2 class="font-headline-lg text-primary mb-2">Beautiful Memories</h2>
+<p class="font-body-md text-secondary">A collection of moments we cherish forever.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+<div class="photo-frame-scrapbook shadow-md rotate-2 cursor-pointer photo-corners hover:scale-105 transition-transform" onclick="triggerBurst(event)">
+<div class="aspect-square bg-surface-container-high flex items-center justify-center relative">
+<div class="washi-tape washi-top-left scale-75"></div>
+<span class="material-symbols-outlined text-2xl text-outline-variant">image</span>
+</div>
+<p class="text-center font-label-caps text-[10px] mt-3 text-secondary">Diwali '23</p>
+</div>
+<div class="photo-frame-scrapbook shadow-md -rotate-1 cursor-pointer photo-corners hover:scale-105 transition-transform">
+<div class="aspect-square bg-surface-container-high flex items-center justify-center relative">
+<span class="material-symbols-outlined text-2xl text-outline-variant">image</span>
+</div>
+</div>
+<div class="photo-frame-scrapbook shadow-md rotate-3 cursor-pointer photo-corners hover:scale-105 transition-transform">
+<div class="aspect-square bg-surface-container-high flex items-center justify-center relative">
+<div class="washi-tape washi-bottom-right scale-75"></div>
+<span class="material-symbols-outlined text-2xl text-outline-variant">image</span>
+</div>
+</div>
+<div class="photo-frame-scrapbook shadow-md -rotate-2 cursor-pointer photo-corners hover:scale-105 transition-transform">
+<div class="aspect-square bg-surface-container-high flex items-center justify-center relative">
+<span class="material-symbols-outlined text-2xl text-outline-variant">image</span>
+</div>
+</div>
+</div>
+<!-- Pull Tab Interactive Element -->
+<div class="mt-16 max-w-md mx-auto relative z-10">
+<div class="pull-tab-container bg-[#fcf9f2] border border-outline-variant rounded shadow-inner" id="pull-tab-box">
+<div class="p-6 text-center">
+<h3 class="font-headline-md text-secondary mb-2">A Little Secret</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Pull to reveal</p>
+</div>
+<div class="hidden-message border-t border-outline-variant/50 border-dashed">
+<p class="font-quote-serif text-primary text-center italic">"We planned a surprise trip for you next month! Pack your bags!"</p>
+</div>
+<div class="pull-tab font-label-caps tracking-widest" onclick="togglePullTab()">PULL</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<script>
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+        // 3D Card Logic
+        let cardOpen = false;
+        function openCard() {
+            if (cardOpen) return;
+            const card = document.getElementById('main-card');
+            const rightPage = document.getElementById('inside-right-page');
+            const content = document.getElementById('scrapbook-content');
+            
+            card.classList.add('is-open');
+            cardOpen = true;
+
+            // Show right page text after card opens
+            setTimeout(() => {
+                if(rightPage) {
+                    rightPage.classList.remove('opacity-0');
+                    rightPage.classList.add('opacity-100');
+                }
+            }, 800);
+
+            // Show rest of the scrapbook content
+            setTimeout(() => {
+                if(content) {
+                    content.classList.remove('opacity-0');
+                    content.classList.add('opacity-100');
+                    triggerBurst({clientX: window.innerWidth/2, clientY: window.innerHeight/2}); // Celebrate!
+                }
+            }, 1500);
+        }
+
+        // Pull Tab Logic
+        function togglePullTab() {
+            const container = document.getElementById('pull-tab-box');
+            container.classList.toggle('is-pulled');
+            if (container.classList.contains('is-pulled')) {
+                triggerBurst({clientX: window.innerWidth/2, clientY: window.innerHeight/2});
+            }
+        }
+
+        // Particle System
+        function createParticles() {
+            if (prefersReducedMotion.matches) return;
+            
+            const container = document.getElementById('particles-container');
+            const goldCount = 12;
+            const petalCount = 8;
+            
+            // Gold dust
+            for (let i = 0; i < goldCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('golden-particle');
+                
+                const size = Math.random() * 5 + 2;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}vw`;
+                particle.style.animationDelay = `${Math.random() * 10}s`;
+                particle.style.animationDuration = `${Math.random() * 10 + 10}s`;
+                
+                container.appendChild(particle);
+            }
+
+            // Rose petals
+            for (let i = 0; i < petalCount; i++) {
+                const petal = document.createElement('div');
+                petal.classList.add('rose-petal');
+                
+                const size = Math.random() * 8 + 6;
+                petal.style.width = `${size}px`;
+                petal.style.height = `${size}px`;
+                petal.style.left = `${Math.random() * 100}vw`;
+                petal.style.animationDelay = `${Math.random() * 10}s`;
+                petal.style.animationDuration = `${Math.random() * 10 + 15}s`;
+                
+                container.appendChild(petal);
+            }
+        }
+
+        // Card Flourish Burst
+        function triggerBurst(e) {
+            if (prefersReducedMotion.matches) return;
+            
+            const x = e.clientX || window.innerWidth / 2;
+            const y = e.clientY || window.innerHeight / 2;
+            const burstCount = 20;
+
+            for (let i = 0; i < burstCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('golden-particle');
+                particle.style.position = 'fixed';
+                particle.style.left = x + 'px';
+                particle.style.top = y + 'px';
+                particle.style.width = '6px';
+                particle.style.height = '6px';
+                particle.style.zIndex = '9999';
+                particle.style.animation = 'none';
+                particle.style.transition = 'all 0.8s cubic-bezier(0.1, 0.8, 0.3, 1)';
+                
+                document.body.appendChild(particle);
+
+                const angle = Math.random() * Math.PI * 2;
+                const velocity = Math.random() * 80 + 40;
+                const tx = Math.cos(angle) * velocity;
+                const ty = Math.sin(angle) * velocity;
+
+                // Trigger reflow
+                void particle.offsetWidth;
+
+                particle.style.transform = `translate(${tx}px, ${ty}px) scale(0)`;
+                particle.style.opacity = '0';
+
+                setTimeout(() => {
+                    particle.remove();
+                }, 800);
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', createParticles);
+    </script>
+</body></html>
